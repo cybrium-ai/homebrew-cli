@@ -1,28 +1,28 @@
 class Cyweb < Formula
-  desc     "Cybrium Web — fast web vulnerability scanner"
+  desc     "Cybrium Web — fast web vulnerability scanner (Nikto replacement)"
   homepage "https://github.com/cybrium-ai/cyweb"
   license  "MIT"
-  version  "0.1.0"
+  version  "0.7.0"
 
   on_macos do
     on_arm do
-      url    "https://github.com/cybrium-ai/cyweb/releases/download/v0.1.0/cyweb-darwin-arm64"
-      sha256 "891dc12d0a35555c121898469eab9591feae103b4366bf3c6f2d3d19c8a0752c"
+      url    "https://github.com/cybrium-ai/cyweb/releases/download/v0.7.0/cyweb-darwin-arm64"
+      sha256 "1be0e5ab4e9bc6f64668188004ac83e57ca1e0b505a8feed823448799db62637"
     end
     on_intel do
-      url    "https://github.com/cybrium-ai/cyweb/releases/download/v0.1.0/cyweb-darwin-amd64"
-      sha256 "3fdb65d8608931f8f56893ce0d9cb7b17c89d44f55c326f637bb0305f586c5ad"
+      url    "https://github.com/cybrium-ai/cyweb/releases/download/v0.7.0/cyweb-darwin-amd64"
+      sha256 "0dbcea0dfbf02f485e610a7442108bd48b51070f59111c8b1cd4132e7dd48152"
     end
   end
 
   on_linux do
     on_arm do
-      url    "https://github.com/cybrium-ai/cyweb/releases/download/v0.1.0/cyweb-linux-arm64"
-      sha256 "6dd9d9562237bdd8b93c4eaea014e76d09df6a8a156376763130fac3f941f5e2"
+      url    "https://github.com/cybrium-ai/cyweb/releases/download/v0.7.0/cyweb-linux-arm64"
+      sha256 "8545574d8def86a6717e4c114f8fe9edf538ee21971dff6c91d7ada0cd7f34bc"
     end
     on_intel do
-      url    "https://github.com/cybrium-ai/cyweb/releases/download/v0.1.0/cyweb-linux-amd64"
-      sha256 "86067c636b28547bef2dbd20799a6371de1c3c18b94ece810e666dc3d8cad1ae"
+      url    "https://github.com/cybrium-ai/cyweb/releases/download/v0.7.0/cyweb-linux-amd64"
+      sha256 "4c7df394386eafa375d2cf6731d5d6ed0acf3951059b02293bac08f82a6a8dec"
     end
   end
 
