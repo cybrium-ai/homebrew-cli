@@ -7,22 +7,22 @@ class Cyscan < Formula
   on_macos do
     on_arm do
       url    "https://github.com/cybrium-ai/cyscan/releases/download/v0.6.0/cyscan_0.6.0_aarch64-apple-darwin.tar.gz"
-      sha256 "8a97d555f6f401509482849ea79b17a6de19a56affcdbb72b28bda34a539b91b"
+      sha256 "9b8b83e22006d6608d0cf66a5082c647009285818e65f2084571b9738f272dcd"
     end
     on_intel do
       url    "https://github.com/cybrium-ai/cyscan/releases/download/v0.6.0/cyscan_0.6.0_x86_64-apple-darwin.tar.gz"
-      sha256 "a16d23190156dd601833bf3a96adcc8f61cca9055d235cc3be56bab30c10714b"
+      sha256 "492455abdaf8a72d01ce438defb4428579c54d1b7f2e369b7c3714bfae9fb311"
     end
   end
 
   on_linux do
     on_arm do
       url    "https://github.com/cybrium-ai/cyscan/releases/download/v0.6.0/cyscan_0.6.0_aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7b84ff21c9d2ba3e95f79283a582f53c0db68535642b6057c13057175dd1d6e3"
+      sha256 "4734dc73363d8ef851759075d3e358fce650e7956df927d858abc4c667a67373"
     end
     on_intel do
       url    "https://github.com/cybrium-ai/cyscan/releases/download/v0.6.0/cyscan_0.6.0_x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6f641c0dbf97812f1a309ca5e92cbb6e3615ff88dc6dcdcafd38b2dac2bcd76f"
+      sha256 "2ea906a89e6a3e70765b4a6ac0b49c39188e6582e07597728f6054f84fb8c6d5"
     end
   end
 
