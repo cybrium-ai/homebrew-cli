@@ -2,27 +2,27 @@ class Cyscan < Formula
   desc     "Cybrium Scan — fast multi-language SAST engine"
   homepage "https://github.com/cybrium-ai/cyscan"
   license  "Apache-2.0"
-  version  "0.6.0"
+  version  "0.6.1"
 
   on_macos do
     on_arm do
-      url    "https://github.com/cybrium-ai/cyscan/releases/download/v0.6.0/cyscan_0.6.0_aarch64-apple-darwin.tar.gz"
-      sha256 "ba6b8a7e30a2a1f94a4bbc7dbca5a80d8b0938f3d661c189c729a9d6213d60cb"
+      url    "https://github.com/cybrium-ai/cyscan/releases/download/v0.6.1/cyscan_0.6.1_aarch64-apple-darwin.tar.gz"
+      sha256 "6cd1e634e7bb9f2c340e45b314ed5e8e3d33125143200b7a21b4b4c2d396323a"
     end
     on_intel do
-      url    "https://github.com/cybrium-ai/cyscan/releases/download/v0.6.0/cyscan_0.6.0_x86_64-apple-darwin.tar.gz"
-      sha256 "1fc00ae7ec4a1d6566a07494b5dcf62e22a3f896a80a6b727513cf61624a6ab5"
+      url    "https://github.com/cybrium-ai/cyscan/releases/download/v0.6.1/cyscan_0.6.1_x86_64-apple-darwin.tar.gz"
+      sha256 "462b2253ddf9d4467ed656e9c1d4b7493831104c1de38f21169ee6713dcb371d"
     end
   end
 
   on_linux do
     on_arm do
-      url    "https://github.com/cybrium-ai/cyscan/releases/download/v0.6.0/cyscan_0.6.0_aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c04d4e4432971def66a142079cf87d2992cba332b0aae0efd2312cc40251f8c0"
+      url    "https://github.com/cybrium-ai/cyscan/releases/download/v0.6.1/cyscan_0.6.1_aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "915165c18ee20ccf867194b05ccde06b8bdf4d8df3eed75a49f01ad99d1167fa"
     end
     on_intel do
-      url    "https://github.com/cybrium-ai/cyscan/releases/download/v0.6.0/cyscan_0.6.0_x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2b2d3b9839b5fc58d914c4a422a275ea1c64c7bc30e86e04222330fd86091045"
+      url    "https://github.com/cybrium-ai/cyscan/releases/download/v0.6.1/cyscan_0.6.1_x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "bda5688505fc9933471b3f2de37ecca5d15d990dcad8e4131e4f42f2daf8e333"
     end
   end
 
