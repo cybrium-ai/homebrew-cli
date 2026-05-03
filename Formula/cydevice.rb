@@ -2,27 +2,27 @@ class Cydevice < Formula
   desc     "Cybrium Device — host-side compliance posture agent for non-MDM environments"
   homepage "https://github.com/cybrium-ai/cydevice"
   license  "Apache-2.0"
-  version  "0.1.0"
+  version  "0.2.0"
 
   on_macos do
     on_arm do
-      url    "https://github.com/cybrium-ai/cydevice/releases/download/v0.1.0/cydevice-darwin-arm64.tar.gz"
-      sha256 "e804fc9422f8e92307921e1125cfd1be535fea769e6b43957750331c83c81b30"
+      url    "https://github.com/cybrium-ai/cydevice/releases/download/v0.2.0/cydevice-darwin-arm64.tar.gz"
+      sha256 "5def18ece4bf93bd7a6d8913059576e1eee525cb4c122334a4ab4c26af6b1e10"
     end
     on_intel do
-      url    "https://github.com/cybrium-ai/cydevice/releases/download/v0.1.0/cydevice-darwin-x86_64.tar.gz"
-      sha256 "21bec976203459bacafb33256ca0ee2cd669842420f6b36a391ac87d150c5016"
+      url    "https://github.com/cybrium-ai/cydevice/releases/download/v0.2.0/cydevice-darwin-x86_64.tar.gz"
+      sha256 "4dc9854fce8dfe575d71872d1cdcba98eb46739eaca0fb3342a2a240b7fc6cb2"
     end
   end
 
   on_linux do
     on_arm do
-      url    "https://github.com/cybrium-ai/cydevice/releases/download/v0.1.0/cydevice-linux-arm64.tar.gz"
-      sha256 "a3039dce559f4aec6cddff2a0d064181846d8993ac9f142a99b5cfd5c4b97860"
+      url    "https://github.com/cybrium-ai/cydevice/releases/download/v0.2.0/cydevice-linux-arm64.tar.gz"
+      sha256 "c9bc2514606d4afd814cb5fb5b60b7b0916c0aa8f35090d4ff12f09ab6271688"
     end
     on_intel do
-      url    "https://github.com/cybrium-ai/cydevice/releases/download/v0.1.0/cydevice-linux-x86_64.tar.gz"
-      sha256 "1c069b1e4b05f95824e8ab4b18571750a115e84904538e1eac55b8d6625c9439"
+      url    "https://github.com/cybrium-ai/cydevice/releases/download/v0.2.0/cydevice-linux-x86_64.tar.gz"
+      sha256 "12aaabc893abd341dc6c91892183634cfe6fe103d6263367d2c0435d8de6648e"
     end
   end
 

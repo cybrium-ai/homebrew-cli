@@ -2,27 +2,27 @@ class Cysense < Formula
   desc     "Cybrium network passive sensor — traffic capture + protocol dissection"
   homepage "https://github.com/cybrium-ai/cysense"
   license  "Apache-2.0"
-  version  "0.1.0"
+  version  "0.2.1"
 
   on_macos do
     on_arm do
-      url    "https://github.com/cybrium-ai/cysense/releases/download/v0.1.0/cysense-darwin-arm64"
-      sha256 "dbc8c2992a57e9c98282a8bfbb665fc0a0cd1fa81d74bc9e1fa69a556c2aef2f"
+      url    "https://github.com/cybrium-ai/cysense/releases/download/v0.2.1/cysense-darwin-arm64"
+      sha256 "c8ce2e6c427eb58c0f8e9aef895fd16ee591d92f0de7f7b2e75e1c2fe4d03255"
     end
     on_intel do
-      url    "https://github.com/cybrium-ai/cysense/releases/download/v0.1.0/cysense-darwin-amd64"
-      sha256 "865b1a8c9cae6a46cc5dad189c5b27bace15a3c66878e2aae3a375128db9db09"
+      url    "https://github.com/cybrium-ai/cysense/releases/download/v0.2.1/cysense-darwin-amd64"
+      sha256 "2beaa0559f227ac7f9093432ac8601cd128e432b499e5e0ba218a605d5c5bbb1"
     end
   end
 
   on_linux do
     on_arm do
-      url    "https://github.com/cybrium-ai/cysense/releases/download/v0.1.0/cysense-linux-arm64"
-      sha256 "ca2d36a6945c6f42776d7397fe18425124e0324c9c22d348510df60ba6ab0041"
+      url    "https://github.com/cybrium-ai/cysense/releases/download/v0.2.1/cysense-linux-arm64"
+      sha256 "a35363bc1767533e4b3efab3cbc3b17dda944ee69bc095e7d19fa681c21a88bd"
     end
     on_intel do
-      url    "https://github.com/cybrium-ai/cysense/releases/download/v0.1.0/cysense-linux-amd64"
-      sha256 "3f5e495e740231e7bf4f8cd9056e9b5f60b9760b7d16711beb42e804914f724c"
+      url    "https://github.com/cybrium-ai/cysense/releases/download/v0.2.1/cysense-linux-amd64"
+      sha256 "d29b8b9850aaf549971f03198a3238bc0a9b1540d75693a90767a9849f5f17bb"
     end
   end
 
