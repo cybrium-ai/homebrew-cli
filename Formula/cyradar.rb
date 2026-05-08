@@ -2,27 +2,27 @@ class Cyradar < Formula
   desc     "Cybrium Radar — active discovery probe for AI inference servers"
   homepage "https://github.com/cybrium-ai/cyradar"
   license  "Apache-2.0"
-  version  "0.1.0"
+  version  "0.1.1"
 
   on_macos do
     on_arm do
-      url    "https://github.com/cybrium-ai/cyradar/releases/download/v0.1.0/cyradar_0.1.0_aarch64-apple-darwin.tar.gz"
-      sha256 "cd7fb7e27a73746ad901d85ed3cc8f4569592f54c8e8aab6e5340ff142fd1bc9"
+      url    "https://github.com/cybrium-ai/cyradar/releases/download/v0.1.1/cyradar_0.1.1_aarch64-apple-darwin.tar.gz"
+      sha256 "d289cbe61114269d083ba6ec9d87a5f9e01de7a2a09938d9606acdea5301ca48"
     end
     on_intel do
-      url    "https://github.com/cybrium-ai/cyradar/releases/download/v0.1.0/cyradar_0.1.0_x86_64-apple-darwin.tar.gz"
-      sha256 "290fc4d4523031da565b7945e4af7a3cd837d41312ddb7a3a3a8548ac688127d"
+      url    "https://github.com/cybrium-ai/cyradar/releases/download/v0.1.1/cyradar_0.1.1_x86_64-apple-darwin.tar.gz"
+      sha256 "b5f8f495b37dade25b43faa9b6397be19693ca74d56a0f05349f37822a3dee8d"
     end
   end
 
   on_linux do
     on_arm do
-      url    "https://github.com/cybrium-ai/cyradar/releases/download/v0.1.0/cyradar_0.1.0_aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "bb82160359bd65cc08ad086260fa38797c72db9b08b197f88711b062a7737656"
+      url    "https://github.com/cybrium-ai/cyradar/releases/download/v0.1.1/cyradar_0.1.1_aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e01f3e3fa674404bcaa51a44e6cef2aa62dfe30768a2795ef1598c53b145ba3d"
     end
     on_intel do
-      url    "https://github.com/cybrium-ai/cyradar/releases/download/v0.1.0/cyradar_0.1.0_x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5a3274d57b9b695eec36d3bf9e26cfde2e35b3f1ca0e944d28f7eca9648fea34"
+      url    "https://github.com/cybrium-ai/cyradar/releases/download/v0.1.1/cyradar_0.1.1_x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "cd359a9d73d45043799ec2085b6da8c4285c084b1b6f5c513e93000194910440"
     end
   end
 
