@@ -1,5 +1,5 @@
 class Cyweb < Formula
-  desc     "Cybrium Web — fast web vulnerability scanner (Nikto replacement)"
+  desc     "Cybrium Web — fast web vulnerability scanner"
   homepage "https://github.com/cybrium-ai/cyweb"
   license  "Apache-2.0"
   version  "0.8.0"
