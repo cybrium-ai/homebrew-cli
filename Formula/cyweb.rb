@@ -2,27 +2,27 @@ class Cyweb < Formula
   desc     "Cybrium Web — fast web vulnerability scanner"
   homepage "https://github.com/cybrium-ai/cyweb"
   license  "Apache-2.0"
-  version  "0.8.6"
+  version  "0.8.7"
 
   on_macos do
     on_arm do
-      url    "https://github.com/cybrium-ai/cyweb/releases/download/v0.8.6/cyweb-darwin-arm64"
-      sha256 "0e06265f226c9913b153651f4dc8c8304723a2065ed614f3134f739da505b7f4"
+      url    "https://github.com/cybrium-ai/cyweb/releases/download/v0.8.7/cyweb-darwin-arm64"
+      sha256 "a20e6f4ce3c6f2c9550ee84a6fed3db22c1445cb0da5636d68bade25da152cc0"
     end
     on_intel do
-      url    "https://github.com/cybrium-ai/cyweb/releases/download/v0.8.6/cyweb-darwin-amd64"
-      sha256 "92c0a2ec05b265323ea4d22e3471323451ebe0720c619623f7e17f54175a555a"
+      url    "https://github.com/cybrium-ai/cyweb/releases/download/v0.8.7/cyweb-darwin-amd64"
+      sha256 "f4c60855daf01eb76b6117219ea70efdd0aa7736c524925170b3f602df278fce"
     end
   end
 
   on_linux do
     on_arm do
-      url    "https://github.com/cybrium-ai/cyweb/releases/download/v0.8.6/cyweb-linux-arm64"
-      sha256 "c421d82f022fd8592cb975c710702592f759db0c41f702eb40ff74e985fde529"
+      url    "https://github.com/cybrium-ai/cyweb/releases/download/v0.8.7/cyweb-linux-arm64"
+      sha256 "c1ba742b20a52d6c0e6172a894063b66d93af1385f4bdffc11cc54e933a445f7"
     end
     on_intel do
-      url    "https://github.com/cybrium-ai/cyweb/releases/download/v0.8.6/cyweb-linux-amd64"
-      sha256 "2987bb8410a9894028a35fb539d3d163eb7061edb7aedf0a0fa8ae301f64d4fd"
+      url    "https://github.com/cybrium-ai/cyweb/releases/download/v0.8.7/cyweb-linux-amd64"
+      sha256 "e55089ad75bf2f0c8c45a65b55a49a29b47664b97faf1e1825b4eae3e15b0846"
     end
   end
 
