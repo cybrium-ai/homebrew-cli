@@ -1,28 +1,28 @@
 class Cydeep < Formula
-  desc     "Cybrium PLC deep inspection — Purdue Level 0 visibility"
+  desc     "Cybrium cydeep — see https://github.com/cybrium-ai/cydeep"
   homepage "https://github.com/cybrium-ai/cydeep"
   license  "MIT"
-  version  "0.1.0"
+  version  "0.1.5"
 
   on_macos do
     on_arm do
-      url    "https://github.com/cybrium-ai/cydeep/releases/download/v0.1.0/cydeep-darwin-arm64"
-      sha256 "c9a5802a82e330c6d1ff30b1f5df69009d88282f2a2ad548cc163fe951f62342"
+      url    "https://github.com/cybrium-ai/cydeep/releases/download/v0.1.5/cydeep-darwin-arm64"
+      sha256 "2981241436081f707fce88aff8cdf1238290eed50e8b379b274ed0e644defa0b"
     end
     on_intel do
-      url    "https://github.com/cybrium-ai/cydeep/releases/download/v0.1.0/cydeep-darwin-amd64"
-      sha256 "b90c1aa783901fe5886df1aed454b1afd754ae4ed27b275211df51b33c3d1527"
+      url    "https://github.com/cybrium-ai/cydeep/releases/download/v0.1.5/cydeep-darwin-amd64"
+      sha256 "a8932a9c0dbbe4c8c9d8fb0845d4195bfa0e1ba79c522acb96b6ce1573198ab9"
     end
   end
 
   on_linux do
     on_arm do
-      url    "https://github.com/cybrium-ai/cydeep/releases/download/v0.1.0/cydeep-linux-arm64"
-      sha256 "ab7259ec1dc5ccf4a8a5e37f94679e2b90acfd335e9ed0f1f8af10db39056cff"
+      url    "https://github.com/cybrium-ai/cydeep/releases/download/v0.1.5/cydeep-linux-arm64"
+      sha256 "31f1f8b4dddbae2170618674d9e648bee7f0fea3465a9b2e1f940d33d257f344"
     end
     on_intel do
-      url    "https://github.com/cybrium-ai/cydeep/releases/download/v0.1.0/cydeep-linux-amd64"
-      sha256 "552a49fa5471f21f70ad8d136bd655f0253189b4628df741c856e16859aaf89b"
+      url    "https://github.com/cybrium-ai/cydeep/releases/download/v0.1.5/cydeep-linux-amd64"
+      sha256 "7761a86d5e698f09a11f5340ddc59c8074a8701bb8c39e6b3f4abd4829328a78"
     end
   end
 
