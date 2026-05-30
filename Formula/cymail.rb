@@ -1,5 +1,5 @@
 class Cymail < Formula
-  desc     "Cybrium Web — fast web vulnerability scanner"
+  desc     "Cybrium AI Email Security Scanner — SPF/DKIM/DMARC + reputation + leak"
   homepage "https://github.com/cybrium-ai/cymail"
   license  "Apache-2.0"
   version  "0.5.0"
