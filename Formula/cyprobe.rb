@@ -2,27 +2,27 @@ class Cyprobe < Formula
   desc     "Cybrium Probe — OT/SCADA security scanner (Modbus, DNP3, BACnet)"
   homepage "https://github.com/cybrium-ai/cyprobe"
   license  "Apache-2.0"
-  version  "0.2.3"
+  version  "0.2.4"
 
   on_macos do
     on_arm do
-      url    "https://github.com/cybrium-ai/cyprobe/releases/download/v0.2.3/cyprobe-darwin-arm64"
-      sha256 "b06d36897a68ea362d966c9d07ee7d9236b3975b5d1f7bfb4623a905f610e40b"
+      url    "https://github.com/cybrium-ai/cyprobe/releases/download/v0.2.4/cyprobe-darwin-arm64"
+      sha256 "a4e917b2c5db1fb77ff494f53d2c06ff5a47d8f2ed5b65b0a6211156576a6295"
     end
     on_intel do
-      url    "https://github.com/cybrium-ai/cyprobe/releases/download/v0.2.3/cyprobe-darwin-amd64"
-      sha256 "0a58d54f158ef6601de71e2b76d2830123d73a6edcfd1707b59f09a44cd158df"
+      url    "https://github.com/cybrium-ai/cyprobe/releases/download/v0.2.4/cyprobe-darwin-amd64"
+      sha256 "d91ea0b2a7eedf2311fd8c52eeba4aaef1200474bb9f4a8c2cf7bd6b7fe4c3b5"
     end
   end
 
   on_linux do
     on_arm do
-      url    "https://github.com/cybrium-ai/cyprobe/releases/download/v0.2.3/cyprobe-linux-arm64"
-      sha256 "a21a2fc3652d8b90b1602b8808e7d0bc1df88afc2c9bc5fcb6dc0fe5e6d9a475"
+      url    "https://github.com/cybrium-ai/cyprobe/releases/download/v0.2.4/cyprobe-linux-arm64"
+      sha256 "d0c75e89047f7877be5bf40eecfca3101422015f0e542985714b142fff74021c"
     end
     on_intel do
-      url    "https://github.com/cybrium-ai/cyprobe/releases/download/v0.2.3/cyprobe-linux-amd64"
-      sha256 "f6e01ffd0dccd27086383db84be54ab3d86ebeb7ead52f1071fc236412576b96"
+      url    "https://github.com/cybrium-ai/cyprobe/releases/download/v0.2.4/cyprobe-linux-amd64"
+      sha256 "23e58f3f787aa0e5c18724134fa18b63bb8496bb50443e9e889673012310e857"
     end
   end
 
