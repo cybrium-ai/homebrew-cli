@@ -2,27 +2,27 @@ class Cyweb < Formula
   desc     "Cybrium Web — fast web vulnerability scanner"
   homepage "https://github.com/cybrium-ai/cymail"
   license  "Apache-2.0"
-  version  "0.2.0"
+  version  "0.3.0"
 
   on_macos do
     on_arm do
-      url    "https://github.com/cybrium-ai/cymail/releases/download/v0.2.0/cymail-darwin-arm64"
-      sha256 "27fe4433a40c2d6bd7ca696815f10553d9f9ac75e8b7320693821a0c495eb62a"
+      url    "https://github.com/cybrium-ai/cymail/releases/download/v0.3.0/cymail-darwin-arm64"
+      sha256 "891fa4547c5d82b5ff214ebb6ae22bd5e5ed71e7eca7aafe9902e6dd33acdfd6"
     end
     on_intel do
-      url    "https://github.com/cybrium-ai/cymail/releases/download/v0.2.0/cymail-darwin-amd64"
-      sha256 "4dbc3bfab1230efa7294f615fb5327e4563f3dd3eb8e8e8411693e07ad64ad6d"
+      url    "https://github.com/cybrium-ai/cymail/releases/download/v0.3.0/cymail-darwin-amd64"
+      sha256 "a1a14f80832f5cfcc2f4531cc27296d1962a657bce567eca7ebe5ae17b22ba7e"
     end
   end
 
   on_linux do
     on_arm do
-      url    "https://github.com/cybrium-ai/cymail/releases/download/v0.2.0/cymail-linux-arm64"
-      sha256 "81f2fb0f999c0c4611137841d33fb2a78f6b297b6b80452f1dba9058a8e13625"
+      url    "https://github.com/cybrium-ai/cymail/releases/download/v0.3.0/cymail-linux-arm64"
+      sha256 "ed469c20a58c2c762ba83d96ab4923e1c206590efe104a1c1a83acad7fedfbeb"
     end
     on_intel do
-      url    "https://github.com/cybrium-ai/cymail/releases/download/v0.2.0/cymail-linux-amd64"
-      sha256 "893050b3615e5bcff5a890b9abb4ea276da9634fb807ee17b27949dcaac707af"
+      url    "https://github.com/cybrium-ai/cymail/releases/download/v0.3.0/cymail-linux-amd64"
+      sha256 "6ad6d282d75fdb0787af584e3743ad614c5e0315a51528bcb848be3f6c35cd17"
     end
   end
 
