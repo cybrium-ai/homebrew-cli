@@ -1,4 +1,4 @@
-class Cyweb < Formula
+class Cymail < Formula
   desc     "Cybrium Web — fast web vulnerability scanner"
   homepage "https://github.com/cybrium-ai/cymail"
   license  "Apache-2.0"
