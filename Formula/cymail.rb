@@ -2,27 +2,27 @@ class Cymail < Formula
   desc     "Cybrium AI Email Security Scanner — SPF/DKIM/DMARC + reputation + leak"
   homepage "https://github.com/cybrium-ai/cymail"
   license  "Apache-2.0"
-  version  "0.6.2"
+  version  "0.6.3"
 
   on_macos do
     on_arm do
-      url    "https://github.com/cybrium-ai/cymail/releases/download/v0.6.2/cymail-darwin-arm64"
-      sha256 "c8cb459d3521d2a04a6de7a40512b27b8af875f141817ef5b0e7a469cd783a27"
+      url    "https://github.com/cybrium-ai/cymail/releases/download/v0.6.3/cymail-darwin-arm64"
+      sha256 "e6d514e11ca26e14b3605f4b1fd7a2e0f1d6ad6ae93efcbd262bcd8ab838ed53"
     end
     on_intel do
-      url    "https://github.com/cybrium-ai/cymail/releases/download/v0.6.2/cymail-darwin-amd64"
-      sha256 "406f1a48b0f278383b53939460df1ad78882661eaa9e8e99c362a564578bfd24"
+      url    "https://github.com/cybrium-ai/cymail/releases/download/v0.6.3/cymail-darwin-amd64"
+      sha256 "e70f97ee7440b37c4d00a03fd7f6ec0eb57fa7633735d30daf071a3a77a853c6"
     end
   end
 
   on_linux do
     on_arm do
-      url    "https://github.com/cybrium-ai/cymail/releases/download/v0.6.2/cymail-linux-arm64"
-      sha256 "ac1755dbd63b7628ff55a8c2fab8b55e4f4abcc49a5b03fd34b5543e6a547884"
+      url    "https://github.com/cybrium-ai/cymail/releases/download/v0.6.3/cymail-linux-arm64"
+      sha256 "1455decf9222086d7b9ec4878dbaaa28927dcc9c5add63195a57a0f299f514a5"
     end
     on_intel do
-      url    "https://github.com/cybrium-ai/cymail/releases/download/v0.6.2/cymail-linux-amd64"
-      sha256 "d9cd6960bb71d7c79b54b7ebe191bfdc0dba1d73f18a150091558980afa9b5cd"
+      url    "https://github.com/cybrium-ai/cymail/releases/download/v0.6.3/cymail-linux-amd64"
+      sha256 "3778dd3e3e29256e593019ea551945ca82d896086603e6ed190da0abc5c17b65"
     end
   end
 
