@@ -2,32 +2,40 @@ class CyTls < Formula
   desc     "Cybrium SSL/TLS posture scanner — full probe suite, HSTS preload lookup"
   homepage "https://github.com/cybrium-ai/cy-tls"
   license  "Apache-2.0"
-  version  "0.2.1"
+  version  "0.2.6"
 
   on_macos do
     on_arm do
-      url    "https://github.com/cybrium-ai/cy-tls/releases/download/v0.2.1/cy-tls-v0.2.1-aarch64-apple-darwin.tar.gz"
-      sha256 "7c21e27ca64bce62cf4fcb278ae84e5c08828c8508d17a0d11dc9688ec282c26"
+      url    "https://github.com/cybrium-ai/cy-tls/releases/download/v0.2.6/cy-tls-darwin-arm64"
+      sha256 "dbb658b5dc31a12f2d3646e61a72424c409ac818148dd434ca9679e33d74c524"
     end
     on_intel do
-      url    "https://github.com/cybrium-ai/cy-tls/releases/download/v0.2.1/cy-tls-v0.2.1-x86_64-apple-darwin.tar.gz"
-      sha256 "93a4b152e2e18ad414e7e17688439c5d049463a9dbe06dd787052a83f6c58ade"
+      url    "https://github.com/cybrium-ai/cy-tls/releases/download/v0.2.6/cy-tls-darwin-amd64"
+      sha256 "1a639e6bdf706d66411642e0acb396889a794c2f79ee5a6aa35cf38d42b8be50"
     end
   end
 
   on_linux do
     on_arm do
-      url    "https://github.com/cybrium-ai/cy-tls/releases/download/v0.2.1/cy-tls-v0.2.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "20c6804d68d72b5b0ff1c7964464b89fbc85bd061f2cd21f2f5f4ec5143c67bf"
+      url    "https://github.com/cybrium-ai/cy-tls/releases/download/v0.2.6/cy-tls-linux-arm64"
+      sha256 "327e01b9703b6b376470919d05f5dc8c6c327939fb259668f9064eaec0ca8f2b"
     end
     on_intel do
-      url    "https://github.com/cybrium-ai/cy-tls/releases/download/v0.2.1/cy-tls-v0.2.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4ed0657bf2370c8ec66b94db9d2bbd3cd37cc39eb361fe9a210a40459be1ffb9"
+      url    "https://github.com/cybrium-ai/cy-tls/releases/download/v0.2.6/cy-tls-linux-amd64"
+      sha256 "e579746927d5f1ab25054461936b5b5a7504e6c8e7983e8e180ddd299c872429"
     end
   end
 
   def install
-    bin.install "cy-tls"
+    if OS.mac? && Hardware::CPU.arm?
+      bin.install "cy-tls-darwin-arm64" => "cy-tls"
+    elsif OS.mac? && Hardware::CPU.intel?
+      bin.install "cy-tls-darwin-amd64" => "cy-tls"
+    elsif OS.linux? && Hardware::CPU.arm?
+      bin.install "cy-tls-linux-arm64"  => "cy-tls"
+    else
+      bin.install "cy-tls-linux-amd64"  => "cy-tls"
+    end
   end
 
   test do
