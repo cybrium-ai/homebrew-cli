@@ -7,22 +7,22 @@ class CyTls < Formula
   on_macos do
     on_arm do
       url    "https://github.com/cybrium-ai/cy-tls/releases/download/v0.4.0/cy-tls-darwin-arm64"
-      sha256 "afb313a6845585e3c8ebe34aeec78345a34ef8a94efbcc057c1c2b1053b26613"
+      sha256 "2be08ac275c54af31c93c898d3843ec073bc522d00aded21685b12a56a8a6642"
     end
     on_intel do
       url    "https://github.com/cybrium-ai/cy-tls/releases/download/v0.4.0/cy-tls-darwin-amd64"
-      sha256 "3a9047e322a748c93be1dd10e883c65c4a3f62f835f752b87c34080aea42cb22"
+      sha256 "205651705c5200196552c82d159572581fa467f1676f06e7350f477cfcbdd0d9"
     end
   end
 
   on_linux do
     on_arm do
       url    "https://github.com/cybrium-ai/cy-tls/releases/download/v0.4.0/cy-tls-linux-arm64"
-      sha256 "c2567e3611f7aa0510a70cb5aff8873e8eddddbcfbde02a58f6523e0126e87fe"
+      sha256 "8df3d6ebedf378e348bbc7a08818aae0babdebb3cd42d01d3b1fea8e0cb3d437"
     end
     on_intel do
       url    "https://github.com/cybrium-ai/cy-tls/releases/download/v0.4.0/cy-tls-linux-amd64"
-      sha256 "cce868fb2d12751f54584329ec972be944618fac2377162702e73791d9f7909f"
+      sha256 "c003c36aa6209ccf706eca7f7709622d178021aabb5d7f213b1c5ba171f5eba2"
     end
   end
 
