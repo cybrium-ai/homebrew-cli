@@ -7,22 +7,22 @@ class Cymail < Formula
   on_macos do
     on_arm do
       url    "https://github.com/cybrium-ai/cymail/releases/download/v0.7.0/cymail-darwin-arm64"
-      sha256 "3d609f69df109f0b7e92216606a9de44a0c685464bd15f0cb775d96c8bc8cf18"
+      sha256 "dbdb885a0d71324280538168e7df9eef117f2ab8610235f4342ed8f1a45ceda6"
     end
     on_intel do
       url    "https://github.com/cybrium-ai/cymail/releases/download/v0.7.0/cymail-darwin-amd64"
-      sha256 "67c3832f88ddf4367d5be5220c28ef82a69c184425e52fe6e68c2d3de8a7ee22"
+      sha256 "f318303a33bec0add3b9e44a60de2de3f57c40d7de05bfbbce326a0d0f1eb8e8"
     end
   end
 
   on_linux do
     on_arm do
       url    "https://github.com/cybrium-ai/cymail/releases/download/v0.7.0/cymail-linux-arm64"
-      sha256 "76dadd14171f16d78054a2843113510dbf5f5a4de9f9e8e51e901ea2ab2fa804"
+      sha256 "fd7a6923fed2782ab9ed9df7240122cc22fc2cc85e2cec893eda81ad3bbbd484"
     end
     on_intel do
       url    "https://github.com/cybrium-ai/cymail/releases/download/v0.7.0/cymail-linux-amd64"
-      sha256 "31669a280b24586ccc1b1e0903dcf5d7d59f55df107f416f9c73f9a4abc3eea2"
+      sha256 "b5484ac0aea8f5a4805f7fda33ca8ed98e42c9ac1ec7ac30221cc21735d545f3"
     end
   end
 
