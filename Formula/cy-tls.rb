@@ -2,27 +2,27 @@ class CyTls < Formula
   desc     "Cybrium SSL/TLS posture scanner — full probe suite, HSTS preload lookup"
   homepage "https://github.com/cybrium-ai/cy-tls"
   license  "Apache-2.0"
-  version  "0.5.65"
+  version  "0.5.66"
 
   on_macos do
     on_arm do
-      url    "https://github.com/cybrium-ai/cy-tls/releases/download/v0.5.65/cy-tls-darwin-arm64"
-      sha256 "10290611c296916a84fad10141fb996b98474259f037067a7bbb736cc50af464"
+      url    "https://github.com/cybrium-ai/cy-tls/releases/download/v0.5.66/cy-tls-darwin-arm64"
+      sha256 "5882801bc57e24c2412249615798d6c755a1afb27af9c74a05ca065097cad496"
     end
     on_intel do
-      url    "https://github.com/cybrium-ai/cy-tls/releases/download/v0.5.65/cy-tls-darwin-amd64"
-      sha256 "f01f4e3e2d6816251d14da141a7ff165b714c443545265fa6d7a1f0760fc8a52"
+      url    "https://github.com/cybrium-ai/cy-tls/releases/download/v0.5.66/cy-tls-darwin-amd64"
+      sha256 "2a17280b2d8f530d303089dbaee947aa7ad9bcb78e82e6089d9cd4f76cd78b21"
     end
   end
 
   on_linux do
     on_arm do
-      url    "https://github.com/cybrium-ai/cy-tls/releases/download/v0.5.65/cy-tls-linux-arm64"
-      sha256 "ca6d0e7e4fb0114f0333e9288603dbf2a4bd2199bfdef18be278ca6fe89156ed"
+      url    "https://github.com/cybrium-ai/cy-tls/releases/download/v0.5.66/cy-tls-linux-arm64"
+      sha256 "6408afe6e3d84ef494dc36975ce8dfce792f1e4b42b6e23070d9e0844b236fe9"
     end
     on_intel do
-      url    "https://github.com/cybrium-ai/cy-tls/releases/download/v0.5.65/cy-tls-linux-amd64"
-      sha256 "ba43772058f39d0911c7154ae181605ced2b20b3cd9e90906380c75dfcebfbed"
+      url    "https://github.com/cybrium-ai/cy-tls/releases/download/v0.5.66/cy-tls-linux-amd64"
+      sha256 "05c0f49eaf0a8eeb7a36e6fb457315bbea75564c251e4ad589cc9cbb2bdd62f7"
     end
   end
 
