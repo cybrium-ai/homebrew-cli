@@ -3,16 +3,16 @@
 class Cyproxy < Formula
   desc "Cybrium intercepting proxy — TLS MITM, scope-aware capture, bounded replay"
   homepage "https://github.com/cybrium-ai/cyproxy"
-  version "0.1.0"
+  version "0.2.2"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/cybrium-ai/cyproxy/releases/download/v#{version}/cyproxy-darwin-arm64"
-      sha256 "7149568fd3a3c4c2b0cd6b34135873b5f6ab4584ef4c04987e1f8afb655203a5"
+      sha256 "2ad0810ac7d6447f3288866740765388573943bb30da4999ccae597aac6bd7c4"
     else
       url "https://github.com/cybrium-ai/cyproxy/releases/download/v#{version}/cyproxy-darwin-amd64"
-      sha256 "e27eaac8cd0f93d8bbb69a01b622581585bc8a20a35d0e5020cc33e7c07708e8"
+      sha256 "a21fb4ccb3528f5461ff6fd892a283689ac22fb9d42e73a6ee0fa303b7f893f2"
     end
   end
 
