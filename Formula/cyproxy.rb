@@ -8,10 +8,10 @@ class Cyproxy < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/cybrium-ai/cyproxy/releases/download/v#{version}/cyproxy-darwin-arm64"
+      url "https://github.com/cybrium-ai/cyproxy-releases/releases/download/v#{version}/cyproxy-darwin-arm64"
       sha256 "7149568fd3a3c4c2b0cd6b34135873b5f6ab4584ef4c04987e1f8afb655203a5"
     else
-      url "https://github.com/cybrium-ai/cyproxy/releases/download/v#{version}/cyproxy-darwin-amd64"
+      url "https://github.com/cybrium-ai/cyproxy-releases/releases/download/v#{version}/cyproxy-darwin-amd64"
       sha256 "e27eaac8cd0f93d8bbb69a01b622581585bc8a20a35d0e5020cc33e7c07708e8"
     end
   end
